@@ -1,40 +1,48 @@
 package com.example.potolki.data.remote
 
-import com.example.potolki.data.remote.model.MaterialsDto
+import androidx.compose.ui.res.stringResource
+import com.example.potolki.R
+import com.example.potolki.data.remote.model.client.MaterialCartDto
+import com.example.potolki.data.remote.model.client.UserProfileDto
+import com.example.potolki.data.remote.model.server.MaterialDto
 
-object LocalMaterialModel {
-    val listOfMaterial = listOf<MaterialsDto>(
-        MaterialsDto(
-            id = 0,
-            title = "Инструменты",
-            imageSrc = "https://s.nooirf.ru/wp-content/uploads/2021/08/no_image.jpg"
-        ),
-
-        MaterialsDto(
-            id = 1,
-            title = "Расходники",
-            imageSrc = "https://s.nooirf.ru/wp-content/uploads/2021/08/no_image.jpg"
-        ),
-        MaterialsDto(
-            id = 2,
-            title = "Потолки",
-            imageSrc = "https://s.nooirf.ru/wp-content/uploads/2021/08/no_image.jpg"
-        ),
-        MaterialsDto(
-            id = 3,
-            title = "Вставка",
-            imageSrc = "https://s.nooirf.ru/wp-content/uploads/2021/08/no_image.jpg"
-        ),
-        MaterialsDto(
-            id = 4,
-            title = "Брус",
-            imageSrc = "https://s.nooirf.ru/wp-content/uploads/2021/08/no_image.jpg"
-        ),
-        MaterialsDto(
-            id = 5,
-            title = "Уголки",
-            imageSrc = "https://s.nooirf.ru/wp-content/uploads/2021/08/no_image.jpg"
-        )
+object LocalUserProfileModel{
+    val profile: UserProfileDto = UserProfileDto(
+        image = R.drawable.fon,
+        firstName = "Вася",
+        lastName = "Рамштайнов",
+        phone = "+79203744459",
+        email = "arsen.00z11@gmail.com",
+        region = "Ярославль"
     )
-
 }
+
+object LocalRegionModel{
+    val regions = mutableListOf<String>(
+        "Ярославль",
+        "Гаврилов-Ям",
+        "Мышкин",
+        "Углич",
+        "Рыбинск"
+    )
+}
+
+
+object LocalMaterialCartModel{
+    val listOfMaterialCart = mutableListOf<MaterialCartDto>(
+    )
+}
+
+object LocalMaterialFavouriteModel{
+    val listOfFavourite = mutableListOf<MaterialDto>(
+
+    )
+}
+
+object LocalMaterialVarietiesModel{
+    const val defaultImage = R.drawable.fon
+    val listOfMaterialVarieties = mutableListOf<MaterialDto>(
+
+    )
+}
+

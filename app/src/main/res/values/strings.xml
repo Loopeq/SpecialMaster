@@ -1,6 +1,45 @@
 <resources>
     <string name="app_name">Potolki</string>
-    <string name="menu">Меню</string>
+    <string name="market_name">СпецМастер</string>
+
+    <string name="menu">Каталог</string>
     <string name="cart">Корзина</string>
     <string name="favourites">Избранное</string>
+    <string name="orders">Заказы</string>
+    <string name="profile">Профиль</string>
+    <string name="edit_phone">Изменить телефон</string>
+    <string name="edit_email">Изменить почту</string>
+    <string name="region">Регион</string>
+
+    <string name="searchholder">Поиск по СпецМастер</string>
+    <string name="count">Кол-во: </string>
+    <string name="save">Сохранить</string>
+    <string name="accept">Применить</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+
+    <string name="phone">Телефон</string>
+    <string name="email">Почта</string>
+    <string name="pay_metodes">Способы оплаты</string>
+    <string name="add_card">Привязать карту</string>
+
+
+    <string name="news">Новинки</string>
+    <string name="rub">₽</string>
+    <string name="cancelOrder">Выйти</string>
+    <string name="createOrder">Оформление заказа</string>
+    <string name="selectRegion">Укажите регион</string>
+
+
+    <string name="order">Оформить</string>
+    <string name="total_price">ИТОГО : </string>
+    <string name="total_count">Кол-во: </string>
+    <string name="add_to_cart">В корзину</string>
+    <string name="move_to_cart">Перейти в корзину</string>
+    <string name="add_to_favorite">В избранное</string>
+    <string name="remove_to_favourite">Из избранного</string>
+    <string name="info">Информация</string>
+    <string name="emptyCart">Ваша корзина пуста!</string>
+    <string name="emptyFav">У Вас нет любимых товаров!</string>
+    <string name="productUnitInf">Кратность заказа: </string>
 </resources>
